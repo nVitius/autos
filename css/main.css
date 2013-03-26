@@ -1,0 +1,447 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC);
+
+.tooltip {
+	font-size:1.1em;
+
+}
+
+a.brand i {
+	margin:0 20px 0 20px;
+}
+a[href*='myModal'] {
+	display:block;
+	width:40%;
+	margin:10px auto;
+}
+a[class*="warning"] {
+	margin-top:30px;
+}
+a[class*='success'] {
+	margin-top:30px;
+}
+address {
+	margin:0px auto;
+	padding:20px;
+	border-radius:20px 20px 0 0;
+}
+
+address p {
+	line-height:1;
+	font-size:1.2em;
+}
+a#lmore {
+	margin-top:40px;
+	margin-bottom:20px;
+}
+article.span10 {
+	
+	margin-bottom:40px;
+	color:#333;
+}
+aside {
+	
+/*	background:rgba(255,255,255,0.1); */
+	min-width:220px;
+	margin:0 auto;
+	padding:20px 0;
+	border-radius:10px;
+}
+
+.banner {	
+	text-align:center;
+	margin:40px auto;
+}
+.banner h3 {
+	padding:20px 0 20px 0;
+}
+body {
+	 background:url('../img/wild_oliva.png');	
+	 font-family:Helvetica;
+}
+
+.carousel img {
+	display:block;
+	margin:0 auto 0 auto;
+}
+.carousel-inner {
+	/*
+ 	background:url('../img/illusion.png');
+ 	 background:url('../img/wild_oliva.png');
+	*/
+	background:#fff;
+	text-align:center;
+}
+
+.carousel-caption {
+	background:url('../img/noisy_grid.png');
+	max-height:80px;
+	border-top:3px solid #777;
+	border-bottom:3px solid #777;
+
+	
+}
+.carousel-caption h2,h3 {
+	text-align:center;
+
+}
+.center {
+	text-align:center;
+}
+#contactForm {
+	background:rgba(0,0,0,0.6);
+	border-radius:10px;
+	color:#eee;
+}
+
+#contactForm form {
+	margin-left:20px;
+	margin-top:20px;
+}
+#contactForm form input {
+	
+}
+#contactForm form label {
+	color:#eee;
+}
+#contactForm .span6 {
+	
+	padding-top:40px;
+}
+.compliance {
+	padding-top:20px;
+}
+.compliance p {
+	font-size:0.7em;
+	color:#ccc;
+}
+div.container-fluid {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+div.info:hover i {
+	color:#B52C1A;
+}
+
+div.info p {
+	margin-left:25px;
+	margin-right:25px;
+	padding-bottom:25px;
+	text-align:justify;
+
+}
+.dummy-back {
+	width:100%;
+	height:500px;
+	background:-webkit-linear-gradient(#555,#fff 10%,#fff 90%,#555);
+	background:-moz-linear-gradient(#555,#fff 10%,#fff 90%,#555);
+	background:-ms-linear-gradient(#555,#fff 10%,#fff 90%,#555);
+	background:-o-linear-gradient(#555,#fff 10%,#fff 90%,#555);
+
+	 /* background:url('../img/noisy_grid.png'); */
+
+}
+.dummy-back > .row-fluid > .span10 {
+	
+	
+	border-radius:10px 10px 0 0;
+}
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer {
+	height:250px;	
+	color:#eee;
+}
+footer .span4 {
+	margin:60px 0 0 0;
+	color:#eee;
+	text-align:center;
+}
+
+footer address {
+	background:none;
+	margin:0;
+	padding:0;
+}
+footer .span4 h4 {
+	padding:5px 0;
+	margin-bottom:20px;
+}
+h2#titleMain {
+	color:#fff;
+	text-align:none;
+
+}
+.document {
+	text-align:center;
+	padding:20px 0 20px 0;
+	margin:20px 0 20px 0;
+}
+.location {
+	padding:0;
+	margin:0;
+	font-size:1.2em;
+	font-family: 'IM Fell English SC', serif;
+}
+header {
+	 background:url('../img/wild_oliva.png');
+}
+header .span10 > .span4 {
+	color:#eee;
+	margin:20px 0 0 0;
+}
+
+h3#salud {
+	text-align:center;
+	padding:40px 0 10px 0;
+
+}
+h4.call {
+	
+}
+img[src*='test'] {
+	
+	float:left;
+	margin:0px 20px 20px auto;
+	border-radius:30px;
+	
+
+
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+
+	box-shadow:0 0 15px #777;
+}
+img[src*='test']:hover {
+	box-shadow:0 0 15px #eee;
+} 
+input[type="submit"] {
+	margin-top:20px;
+	padding:10px;
+	width:100px !important;
+}
+input[type="reset"] {
+	margin-top:20px;
+	padding:10px;
+	width:100px !important;
+}
+
+@media (max-width:980px) {
+	img[src*='test'] {
+		float:none;
+	}
+	header .span4 {
+		padding-bottom:30px;
+	}
+	header .span4 {
+		text-align:center;
+	}
+}
+
+/**************/
+/** ICONS ****/
+/**************/
+
+
+i[class*='4x'] {
+	text-shadow:0 0 15px #eee;
+}
+i[class*='2x'] {
+	margin-right:20px;
+	
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+}
+
+
+i[class*='3x'] {
+	margin:15px 0;
+	display:block;
+
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+
+i[class*='icon-ok'] {
+	color:#5CB95C;
+}
+
+#myCarousel {
+	margin-top:10px;
+}
+#mainContent {  
+	 background:url('../img/noisy_grid.png');
+	
+	
+}
+#mainCopy {
+	 background:url('../img/noisy_grid.png');
+	padding:0 15px;
+
+}
+#mainCopy2 {
+	color:#eee;
+	padding:0 15px;
+	background:rgba(0,0,0,0.6);
+	padding-top:20px;
+}
+
+#mainCopy .span6 h3 {
+	text-align:center;
+}
+#mainCopy p {
+	font-size:1.3em;
+	line-height:1.4;
+}
+
+.modal ol li {
+	text-align:left;
+	margin-left:10%;
+	color:#333;
+}
+.modal h3, .modal h4 {
+	color:#B52C1A;
+}
+
+.modal p {
+	color:#333;
+	padding:0 35px;
+}
+.navbar {
+	margin-bottom:0;
+
+}
+.navbar-inner {
+	background:#B52C1A;
+	border:none;
+	border-radius:10px 10px 0 0;
+
+}
+.navbar-inner ul.nav a {
+	text-shadow:none;
+	color:#eee;
+	line-height:2.5em;
+	text-transform:uppercase;
+	
+
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+}
+.navbar-inner ul.nav a:hover {
+	background:#eee;
+	color:#555;
+}
+.navbar-inner a.brand {
+	text-shadow:none;
+	color:#eee;
+	padding-top:15px;
+	
+}
+ol.carousel-indicators {
+	display:none;
+}
+ol.carousel-indicators li {
+	list-style:none
+}
+
+#rotator {
+	width:100%;
+	margin:0 auto;
+	margin-bottom:40px;
+	background:orange;
+	text-align:center;
+	position:relative;
+
+}
+#rotator img {
+	
+}
+
+.span4 > .span6 {
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+	
+}
+.social-bookmarks a:hover {
+	color:#B52C1A;
+}
+.span4 > .span6 h2 {
+	margin:5px 0;
+	padding:0;
+}
+
+#three_step  .span4 {
+	text-align:center;
+	
+}
+#slider {
+	background:#fff;
+}
+#small_step {
+	border-bottom:2px solid #ccc;
+	padding:0 0 40px 0;
+}
+#small_step .span4 {
+	text-align:center;
+}
+#story {
+	margin-top:30px;
+}
+#small_step p {
+	padding:0 30px;
+}
+
+ul.servicio {
+	margin-top:30px;
+	background:rgba(0,0,0,0.6);
+	border-radius:10px;
+	padding:40px;
+	color:#eee;
+
+}
+ul.servicio li {
+	font-size:1.2em;
+	line-height:1.7;
+	list-style:none;
+	margin:10px 0;
+}
+
+ul.prestamo li {
+	margin:0 0 0 40px;
+}
+ul, ol {
+	margin:0;
+	padding:0;
+}
+ul.valor {
+	text-align:left;
+	margin-left:30%;
+}
