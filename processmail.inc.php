@@ -16,8 +16,6 @@ function isSuspect($val, $pattern, &$flag) {
 	// if one of the suspcious phrases is found, set Boolean to true
 	if (preg_match($pattern, $val)) {
 	  $flag = true;
-	} else {
-	  htmlspecialchars($item);
 	}
   }
 }
@@ -77,7 +75,10 @@ if (!$flag && !$missing && !$errors) {
 
   // limit line length to 70 characters
   $message = wordwrap($message, 70);
-
+  $myFile = "test.txt";
+  $fh = fopen($myFile, 'w') or die("can't open file");
+  fwrite($fh, $message);
+  fclose($fh);
   $mailSent = mail($to, $subject, $message, $headers);
   if (!$mailSent) {
     $errors['mailfail'] = true;
